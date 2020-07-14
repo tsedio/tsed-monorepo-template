@@ -1,0 +1,18 @@
+{
+    "name": "@tsed/app",
+  "version": "1.0.0",
+  "main": "./lib/index.js",
+  "typings": "./lib/index.d.ts",
+  "description": "App package",
+  "keywords": [],
+  "dependencies": {
+    "@tsed/core": "1.0.0"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "build": "tsc --build tsconfig.compile.json",
+    "build:doc": "tsc --build tsconfig.doc.json"
+  },
+  "peerDependencies": {}
+}

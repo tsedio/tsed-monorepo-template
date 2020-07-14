@@ -1,0 +1,2 @@
+# @tsed/app
+> App package
